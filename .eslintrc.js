@@ -3,7 +3,15 @@ module.exports = {
         "node": true,
         "browser": true,
         "commonjs": true,
-        "es6": true
+        "es6": true,
+        "mocha": true
+    },
+    // Truffle testing global vars
+    "globals": {
+        "expect": true,
+        "assert": true,
+        "contract": true,
+        "artifacts": true,
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -29,6 +37,7 @@ module.exports = {
         ],
         "no-trailing-spaces": "error",
         "no-multi-spaces": "error",
-        "no-console": "off"
+        "no-console": "off",
+        "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }]
     }
 }
