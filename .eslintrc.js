@@ -37,6 +37,9 @@ module.exports = {
         ],
         "no-trailing-spaces": "error",
         "no-multi-spaces": "error",
+        "object-curly-spacing": "error",
+        "space-before-function-paren": "error",
+        "space-in-parens": "error",
         "no-console": "off",
         "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }]
     }
