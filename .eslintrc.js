@@ -12,6 +12,7 @@ module.exports = {
         "assert": true,
         "contract": true,
         "artifacts": true,
+	    "web3": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
