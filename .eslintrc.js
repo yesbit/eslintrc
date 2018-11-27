@@ -12,9 +12,15 @@ module.exports = {
         "assert": true,
         "contract": true,
         "artifacts": true,
-	    "web3": true
+        "web3": true
     },
-    "extends": "eslint:recommended",
+    "plugins": [
+        "security"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:security/recommended"
+    ],
     "parserOptions": {
         "ecmaVersion": 2018,
         "sourceType": "module"
